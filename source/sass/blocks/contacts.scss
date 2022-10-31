@@ -82,6 +82,7 @@
   font-size: 14px;
   color: variables.$gray--darken;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 
   &:hover,
   &:focus {

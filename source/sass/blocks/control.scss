@@ -5,6 +5,7 @@
   align-items: center;
   gap: 19px;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 
   &--checkbox {
     gap: 23px;

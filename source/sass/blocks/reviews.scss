@@ -153,6 +153,7 @@
   max-width: 260px;
   margin: 0 auto 38px auto;
   border: 1px solid variables.$gray--light;
+  -webkit-tap-highlight-color: transparent;
 
   @media (min-width: variables.$tablet-width) {
     grid-column: 2 / 3;

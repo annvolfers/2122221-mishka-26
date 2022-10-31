@@ -9,6 +9,7 @@
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 
   &:focus {
     outline: none;

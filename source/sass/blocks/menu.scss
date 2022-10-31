@@ -28,6 +28,7 @@
   line-height: 24px;
   color: variables.$white;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 
   &:hover,
   &:focus {

@@ -24,6 +24,7 @@
 
 .main-footer__logo {
   display: none;
+  -webkit-tap-highlight-color: transparent;
 
   &:focus {
     outline: none;
