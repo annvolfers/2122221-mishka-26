@@ -91,8 +91,8 @@
       <h2 class="form__title">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы
         свяжемся с вами, чтобы уточнить детали.</h2>
 
-      <fieldset class="group group--radio">
-        <legend class="group__title">Тип</legend>
+      <div class="group group--radio" role="group" aria-labelledby="pseudolegend-radio">
+        <div class="group__title" id="pseudolegend-radio">Тип</div>
         <ul class="group__list">
           <li>
             <label class="control control--radio">
@@ -109,10 +109,10 @@
             </label>
           </li>
         </ul>
-      </fieldset>
+      </div>
 
-      <fieldset class="group group--checkboxes">
-        <legend class="group__title">Цвет</legend>
+      <div class="group group--checkboxes" role="group" aria-labelledby="pseudolegend-checkboxes">
+        <div class="group__title" id="pseudolegend-checkboxes">Цвет</div>
         <ul class="group__list">
           <li>
             <label class="control control--checkbox">
@@ -157,10 +157,10 @@
             </label>
           </li>
         </ul>
-      </fieldset>
+      </div>
 
-      <fieldset class="group group--name-fields">
-        <legend class="group__title">ФИО</legend>
+      <div class="group group--name-fields" role="group" aria-labelledby="pseudolegend-name-fields">
+        <div class="group__title" id="pseudolegend-name-fields">ФИО</div>
         <ul class="group__list">
           <li class="field field--name-fields">
             <label class="field__label" for="first-name">Имя:</label>
@@ -178,7 +178,7 @@
               id="patronymic-name">
           </li>
         </ul>
-      </fieldset>
+      </div>
 
       <fieldset class="group group--contacts">
         <ul class="group__list">
